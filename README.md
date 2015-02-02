@@ -1,30 +1,28 @@
-resources
+Resources
 =========
+Programming resources for young people and teachers - and myself.
 
-Resources for young people and teachers - and myself.
+## prime.py
 
-prime.py
---------
-isPrime(number) returns True or False depending on the supplied number
-primeSieve(max) returns all the prime numbers up until max
+```isPrime(number)``` returns True or False depending on the supplied number
+```primeSieve(max)``` returns all the prime numbers up until max
 
-ciphers
-=========
+## ciphers.py
 
-morse.py
---------
-encrypt("text") returns the encryption of "text"
+#### Morse *class*
 
-decrypt("- . ... -") returns the decryption of "- . ... -"
+```encrypt("text")``` returns the encryption of "text"
 
-caeser.py
----------
-encrypt("text", 2) returns the encryption of "text" with a shift of 2
+```decrypt("- . ... -")``` returns the decryption of "- . ... -"
 
-decrypt("vgzv", 2) returns the decryption of "vgzv" with a shift of 2
+#### Caeser *class*
 
-subsitution.py
---------------
-encrypt("text", "FVGZJAYIRQNWHMBSLXOECUTDPK") returns the encryption of "text" with a key of "FVGZJAYIRQNWHMBSLXOECUTDPK"
+```encrypt("text", 2)``` returns the encryption of "text" with a shift of 2
 
-decrypt("ejde", "FVGZJAYIRQNWHMBSLXOECUTDPK") returns the decryption of "ejde" with a key of "FVGZJAYIRQNWHMBSLXOECUTDPK"
+```decrypt("vgzv", 2)``` returns the decryption of "vgzv" with a shift of 2
+
+#### Subsitution *class*
+
+```encrypt("text", "FVGZJAYIRQNWHMBSLXOECUTDPK")``` returns the encryption of "text" with a key of "FVGZJAYIRQNWHMBSLXOECUTDPK"
+
+```decrypt("ejde", "FVGZJAYIRQNWHMBSLXOECUTDPK")``` returns the decryption of "ejde" with a key of "FVGZJAYIRQNWHMBSLXOECUTDPK"
