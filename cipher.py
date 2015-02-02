@@ -12,10 +12,22 @@ class Caesar:
     def encrypt(self, text, shift):
         cipher = ""
         for char in text:
-            c = (ord(char) + shift) % 126
-            if c < 32:
-                c += 31
-            cipher += chr(c)
+            if char.isalpha():
+                num = ord(char)
+                num += shift
+                if char.isupper():
+                    if num > ord('Z'):
+                        num -= 26
+                    else:
+                        num += 26
+                else:
+                    if num > ord('Z'):
+                        num -= 26
+                    else:
+                        num += 26
+                cipher += chr(num)
+            else:
+                cipher += char
         return(cipher)
 
     def decrypt(self, text, shift):
