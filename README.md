@@ -9,19 +9,19 @@ Programming resources for young people and teachers - and myself.
 
 ## ciphers.py
 
-#### morse *class*
+#### Morse *class*
 
 ```encrypt("text")``` returns the encryption of "text"
 
 ```decrypt("- . ... -")``` returns the decryption of "- . ... -"
 
-#### caeser *class*
+#### Caeser *class*
 
 ```encrypt("text", 2)``` returns the encryption of "text" with a shift of 2
 
 ```decrypt("vgzv", 2)``` returns the decryption of "vgzv" with a shift of 2
 
-#### subsitution *class*
+#### Subsitution *class*
 
 ```encrypt("text", "FVGZJAYIRQNWHMBSLXOECUTDPK")``` returns the encryption of "text" with a key of "FVGZJAYIRQNWHMBSLXOECUTDPK"
 
