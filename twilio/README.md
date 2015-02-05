@@ -4,7 +4,7 @@ Simple scripts for using Python with [Twilio](http://twilio.com)
 
 messaging.py
 ------------
-Text chatter
+Text chatter program
 
 Requirements
 ============
