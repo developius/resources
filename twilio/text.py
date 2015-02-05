@@ -21,6 +21,3 @@ while num: # if there is a number...
                        	print "Unexpected error:", sys.exc_info()[0] # ...say there was an error
                         raise
         num = raw_input("Send to: ") # ask again for another number
-
-#if __name__ == "__main__": # run the script
- #       app.run(debug=True,host="0.0.0.0") # start the Flask web server
