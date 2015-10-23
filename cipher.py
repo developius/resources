@@ -32,13 +32,18 @@ class Caesar:
 
     def decrypt(self, text, shift):
         plaintext = ""
+        text = text.upper()
+    
         for char in text:
-            p = (ord(char) - shift) % 126
-            if p < 32:
-                p += 95
-            plaintext += chr(p)
+        	if char in alphabet:
+        		index = alphabet.index(char)
+        		ciphChar = alphabet[(index - shift)]
+    
+        		plaintext += ciphChar
+        	
+        	else:
+        		plaintext += char
         return(plaintext)
-
 
 class Morse:
 
